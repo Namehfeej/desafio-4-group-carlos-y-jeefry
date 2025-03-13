@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Press+Start+2P&family=Gruppo&family=Orbitron:wght@400..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*NAVBAR*/
+
+#container-navbar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+#container-navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container-navbar ul li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 10px;
+    color: aliceblue;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10px;
+}
+
+.logo-navbar {
+  position: fixed;
+  z-index: -1;
+  margin-left: -60px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navbar-button:hover {
+    background: rgb(90, 14, 49);
+    border: 2px solid rgb(90, 14, 49);
+    box-shadow: 2px 2px rgb(165, 18, 104);
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/*BODY*/
+
+body {
+    background-color: #0C1E7F;
+    padding: 80px;
+    padding-top: 10px;
+    /*
+    display: grid;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    */
+    
+}
+
+
+.container-title {
+    background-color: #FBCB0A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px #01030a;
+}
+
+h1 {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    animation: 5s linear 1s infinite alternate slide-in;
+    font-size: 2.5rem;
+}
+
+@keyframes slide-in {
+    from {
+      translate: translateX(10vw);
+      scale: 100% 1;
+      color: #FBCB0A;
+    }
+  
+    to {
+      translate: translateX(100vw);
+      scale: 100% 1;
+      color: #0C1E7F;
+    }
+  }
+
+.title-juegos {
+    background-color: #2FA4FF;
+    width: 99%;
+    display: flex;
+    justify-content: center;
+}
+
+/*CONTAINER PRINCIPAL*/
+
+.container-principal {
+    background-color: #2FA4FF;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,400px);
+    gap: 26px;
+    place-content: center;
+    padding: 70px;
+    margin-top: 40px;
+    box-shadow: 2px 2px 2px 2px #01030a;
+}
+
+.subtitle-h2 {
+    color: aliceblue;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 10px;
+    position: absolute;
+    top: 140px;
+}
+
+.subtitle-h2 h2 {
+    color: aliceblue;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 10px;
+    position: absolute;
+    top: 4px;
+}
+
+h3 {
+    color: rgb(90, 14, 49);
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+hr {
+  border: none;
+  border-top: 2px dotted rgb(90, 14, 49);
+  margin: 10px;
+  margin-top: 0px;
+  visibility: hidden;
+}
+
+.container-mario-kart h3 {
+    margin-top: 10px;
+}
+
+.container-mortal-kombat h3 {
+    align-items: center;
+    margin-top: 20px;
+}
+
+/*CONTAINER CARDS*/
+
+.container-mario-kart {
+    background-color: #FBCB0A;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 400px;
+    height: auto;
+    box-shadow: 2px 2px 2px 2px #01030a;
+}
+
+
+.games-images {
+    width: 100%;
+    padding: 8px;
+    border-radius: 18px;
+}
+
+
+.container-mortal-kombat {
+    background-color: #FBCB0A;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 400px;
+    height: auto;
+    box-shadow: 2px 2px 2px 2px #01030a;
+}
+
+/*BUTTONS*/
+
+.button-buy {
+    text-decoration: none;
+    color: aliceblue;
+    background: green;
+    border: 2px solid green;
+    box-shadow: 2px 2px greenyellow;
+    border-radius: 4px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: 2px 2px 2px 2px #01030a;
+}
+
+.containet-button {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+p {
+    text-align: justify;
+    margin: 10px;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-size: small;
+    font-style: normal;
+    color: #0a0206;
+}
+
+
+/*FOOTER*/
+
+  footer {
+    background-color: #2FA4FF;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    height: 70px;
+    box-shadow: 2px 2px 2px 2px #01030a;
+  }
+
+  .footer-dev p {
+    text-align: center;
+    font-weight: bold;
+    color: #FDEA2E;
+    padding: 18px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px #53052c;
+  }
+
+  .footer-social-medias {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .footer-social-medias ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .footer-social-medias ul li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 10px;
+  }
+
+  .footer-social-medias-icons li img {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin: 4px;
+    cursor: pointer;
+    margin: 10px;
+  }
+
+  .containet-button-home {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /*BUTTON HOME*/
+
+  .button-home {
+    text-decoration: none;
+    color: aliceblue;
+    background: green;
+    border: 2px solid green;
+    box-shadow: 2px 2px greenyellow;
+    border-radius: 4px;
+  }
+
+  .containet-button-home img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .button-buy:hover {
+    background: #2FA4FF;
+    border: 2px solid #2FA4FF;
+    box-shadow: 2px 2px #2FA4FF;
+  }
+
+  .button-home:hover {
+    background: #2FA4FF;
+    border: 2px solid #2FA4FF;
+    box-shadow: 2px 2px #2FA4FF;
+  }
+
+  #button-social-media:hover {
+        width: 50px;
+        height: 50px;
+        background-color: #F94C10;
+        border-radius: 50%;
+  }
+
+
+  /*DESPONSIVE DESIGN*/
+
+  @media only screen and (max-width: 680px) {
+
+    body {
+        width: fit-content;
+        height: fit-content;
+    }
+  }
+
+
+
+
+  /*Mario Kart index html*/
+
+#container-principal-mariokart {
+    background-color: #2FA4FF;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(auto,500px);
+    gap: 26px;
+    place-content: center;
+
+}
+
+#container-mariokart img {
+    width: 100%;
+    height: 300px;
+    border-radius: 12px;
+}
+
+#container-mariokart iframe {
+  width: 100%;
+  height: 300px;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+#container-mariokart h3 {
+    margin: 0;
+    padding: 0;
+}
+
+#container-mariokart {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    height: auto;
+}
+
+#container-tech-info {
+    display: flex;
+    padding: 10px;
+    margin: 0px;
+    margin-top: 20px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    height: auto;
+    width: auto;
+    }
+
+#container-tech-info h3 {
+      margin: 0;
+      padding: 0;
+  }
+
+#container-tech-info ul li {
+  list-style: none;
+}
+
+
+
+  /*Mortal Kombat index html*/
+
+  #container-principal-mortalkombat {
+    background-color: #2FA4FF;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(auto,500px);
+    gap: 26px;
+    place-content: center;
+
+}
+
+#container-mortalkombat img {
+    width: 100%;
+    height: 300px;
+    border-radius: 12px;
+}
+
+#container-mortalkombat iframe {
+  width: 100%;
+  height: 300px;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+#container-mortalkombat h3 {
+    margin: 0;
+    padding: 0;
+}
+
+#container-mortalkombat {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    height: auto;
+}
+

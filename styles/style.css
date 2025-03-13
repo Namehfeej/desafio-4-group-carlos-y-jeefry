@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    visibility: hidden;
+}
+
+body {
+    background-color: #e11364;
+    padding: 80px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: -20px;
+}
+
+
+.container-title {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.title-juegos {
+    background-color: #bc105c;
+    width: 99%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-principal {
+    background-color: #bc105c;
+    border-radius: 8px;
+
+}
+
+.subtitle-h2 {
+    color: aliceblue;
+    font-weight: 700;
+    padding: 20px;
+}
+
+h3 {
+    color: rgb(90, 14, 49);
+    text-align: end;
+    margin: 0;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 1.6rem;
+}
+
+.container-mario-kart {
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+
+.games-images {
+    width: 100%;
+    padding: 8px;
+}
+
+
+.container-mortal-kombat {
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+.button-buy {
+    text-decoration: none;
+    color: aliceblue;
+    background: green;
+    border: 2px solid green;
+    box-shadow: 2px 2px greenyellow;
+    border-radius: 4px;
+}
+
+.containet-button {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+p {
+    text-align: justify;
+    margin: 10px;
+}
+
+hr {
+    border: none;
+    border-top: 2px dotted rgb(90, 14, 49);
+    margin: 10px;
+    margin-top: 0px;
+  }
+
+  footer {
+    background-color: #e272a6;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 20px;
+    height: 70px;
+  }
+
+  .footer-dev p {
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+    padding: 18px;
+    font-size: 1rem;
+  }
+
+  .footer-social-medias {
+    visibility: hidden;
+    padding: -10px;
+  }
+
+  .containet-button-home {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+  }
+
+  .button-home {
+    text-decoration: none;
+    color: aliceblue;
+    background: green;
+    border: 2px solid green;
+    box-shadow: 2px 2px greenyellow;
+    border-radius: 4px;
+  }
+
+  .containet-button-home img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .button-buy:hover {
+    background: rgb(90, 14, 49);
+    border: 2px solid rgb(90, 14, 49);
+    box-shadow: 2px 2px rgb(165, 18, 104);
+  }
+
+  .button-home:hover {
+    background: rgb(90, 14, 49);
+    border: 2px solid rgb(90, 14, 49);
+    box-shadow: 2px 2px rgb(165, 18, 104);
+  }
+
+  .trailer-videogame {
+    visibility: hidden;
+    margin-bottom: -400px;
+  }
+  
+  #container-tech-info {
+    visibility: collapse;
+    margin-bottom: -260px;
+  }
+
+
+
